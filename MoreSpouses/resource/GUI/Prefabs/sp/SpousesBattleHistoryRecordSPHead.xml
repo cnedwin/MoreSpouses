@@ -45,8 +45,8 @@
                   <Children>
                     <SPBattleResultTitleBackgroundWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" BattleResult="@BattleResultIndex" DefeatWidget="Defeat" VictoryWidget="Victory">
                       <Children>
-                        <Widget Id="Victory" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Scoreboard.BattleResultTitleBackground.Victory" />
-                        <Widget Id="Defeat" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Scoreboard.BattleResultTitleBackground.Defeat" />
+                        <BrushWidget Id="Victory" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Scoreboard.BattleResultTitleBackground.Victory" />
+                        <BrushWidget Id="Defeat" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Scoreboard.BattleResultTitleBackground.Defeat" />
                       </Children>
                     </SPBattleResultTitleBackgroundWidget>
                   </Children>

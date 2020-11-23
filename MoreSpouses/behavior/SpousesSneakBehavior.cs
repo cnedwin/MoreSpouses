@@ -639,7 +639,7 @@ namespace SueMoreSpouses.behavior
 
 				if (this._sneaker.Age >= 50)
 				{
-					this._sneaker.BirthDay = HeroHelper.GetRandomBirthDayForAge((float)22);
+					this._sneaker.SetBirthDay(HeroHelper.GetRandomBirthDayForAge((float)22));
 					InformationManager.DisplayMessage(new InformationMessage(this._sneaker.Name.ToString() + "变年轻了", Colors.Blue));
 				}
 

@@ -143,7 +143,7 @@ namespace SueMoreSpouses
 				//list.Add(new AgentMoraleInteractionLogic());
 				//list.Add(new  AssignPlayerRoleInTeamMissionController(!isPlayerSergeant, isPlayerSergeant, isPlayerInArmy, heroesOnPlayerSideByPriority, FormationClass.NumberOfRegularFormations));
 
-				int arg_190_1 = 25;
+				//int arg_190_1 = 25;
 				Hero expr_152 = MapEvent.PlayerMapEvent.AttackerSide.LeaderParty.LeaderHero;
 				string arg_18B_0 = (expr_152 != null) ? expr_152.Name.ToString() : null;
 				Hero expr_177 = MapEvent.PlayerMapEvent.DefenderSide.LeaderParty.LeaderHero;

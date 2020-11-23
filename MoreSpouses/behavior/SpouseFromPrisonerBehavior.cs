@@ -19,7 +19,7 @@ namespace MoreSpouses
     class SpouseFromPrisonerBehavior : CampaignBehaviorBase
     {
 
-        int acceptFlag;
+        //int acceptFlag;
 
       
 

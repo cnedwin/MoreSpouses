@@ -133,7 +133,7 @@ namespace SueMoreSpouses.utils
 
         public static void InitHeroForNPC(Hero hero)
         {
-            int defaultlevel = 4;
+            //int defaultlevel = 4;
 
             InitTrait(hero);
             InitAttributeAndFouse(hero);

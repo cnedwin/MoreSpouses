@@ -10,6 +10,7 @@ using TaleWorlds.CampaignSystem.ViewModelCollection;
 using TaleWorlds.CampaignSystem.ViewModelCollection.Encyclopedia;
 using TaleWorlds.CampaignSystem.ViewModelCollection.Encyclopedia.EncyclopediaItems;
 using TaleWorlds.Core;
+using TaleWorlds.Core.ViewModelCollection;
 
 namespace SueMoreSpouses.patch
 {

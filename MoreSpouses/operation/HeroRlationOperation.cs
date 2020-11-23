@@ -84,7 +84,7 @@ namespace SueMoreSpouses
 
                 if (hero.Age > 30)
                 {
-                    hero.BirthDay = HeroHelper.GetRandomBirthDayForAge((float)22);
+                    hero.SetBirthDay(HeroHelper.GetRandomBirthDayForAge((float)22));
                 }
             }
             return hero;

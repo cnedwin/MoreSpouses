@@ -38,7 +38,7 @@ namespace SueMoreSpouses.logic
 			this._missionAgentSpawnLogic.InitWithSinglePhase(num, num2, defenderInitialSpawn, attackerInitialSpawn, true, true, 1f);
 		}
 
-		public override void OnAgentHit(Agent affectedAgent, Agent affectorAgent, int damage, int weaponKind, int currentWeaponUsageIndex)
+		public override void OnAgentHit(Agent affectedAgent, Agent affectorAgent, int damage, in MissionWeapon attackerWeapon)
 		{
 			Scene scene = base.Mission.Scene;
 			WorldFrame worldFrame =  affectedAgent.GetWorldFrame();

@@ -29,7 +29,7 @@ namespace SueMoreSpouses.operation
                 int days = (int)CampaignTime.Now.ToDays;
                 if (days % circle == 0)
                 {
-                    child.BirthDay = CampaignTime.Years((float)CampaignTime.Now.ToYears - (float)(lastAge + 1));
+                    child.SetBirthDay(CampaignTime.Years((float)CampaignTime.Now.ToYears - (float)(lastAge + 1)));
                     if (Hero.MainHero.Children.Contains(child))
                     {
                         InformationManager.DisplayMessage(new InformationMessage(child.Name.ToString() + "  AGE =" + child.Age));

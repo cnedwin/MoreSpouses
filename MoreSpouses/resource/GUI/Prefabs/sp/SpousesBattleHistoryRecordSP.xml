@@ -6,7 +6,7 @@
         <Widget HeightSizePolicy="StretchToParent"  DataSource="{HistorySP}"  WidthSizePolicy="StretchToParent" VerticalAlignment="Top" HorizontalAlignment="Left"  UpdateChildrenStates="true">
           <Children>
 
-        <Widget WidthSizePolicy="StretchToParent"  HeightSizePolicy="StretchToParent" Sprite="highscore_bar_9" Brush.AlphaFactor="0.55" />
+        <BrushWidget WidthSizePolicy="StretchToParent"  HeightSizePolicy="StretchToParent" Sprite="highscore_bar_9" Brush.AlphaFactor="0.55" />
 
           
         
