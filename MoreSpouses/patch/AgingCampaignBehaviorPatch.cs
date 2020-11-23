@@ -19,7 +19,7 @@ namespace SueMoreSpouses.patch
     class AgingCampaignBehaviorPatch
     {
 
-        [HarmonyPatch(typeof(AgingCampaignBehavior), "DailyTick")]
+        [HarmonyPatch(typeof(AgingCampaignBehavior), "DailyTickHero")]
         public class AgingCampaignBehaviorDailyTickPatch
         {
            
@@ -82,7 +82,7 @@ namespace SueMoreSpouses.patch
 
         }
 
-        [HarmonyPatch(typeof(AgingCampaignBehavior), "DailyTick")]
+        [HarmonyPatch(typeof(AgingCampaignBehavior), "DailyTickHero")]
         public class AgingCampaignBehaviorDailyTick2Patch
         {
 

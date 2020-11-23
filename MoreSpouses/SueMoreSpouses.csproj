@@ -94,7 +94,6 @@
     <Compile Include="patch\KindomPath.cs" />
     <Compile Include="MoreSpouseSetting.cs" />
     <Compile Include="operation\OccuptionChange.cs" />
-    <Compile Include="patch\LocatonPath.cs" />
     <Compile Include="patch\OccpationFullPath.cs" />
     <Compile Include="patch\PregnancyModelPatch.cs" />
     <Compile Include="patch\TestPath.cs" />
